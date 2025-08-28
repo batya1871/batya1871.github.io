@@ -1,0 +1,38 @@
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+*.sqlite3
+
+# Tmp
+tmp.txt
+*.un~
+*.txt~
+.gitignore~
+# Docker
+*.pid
+*.tar
+*.sock
+*.db
+*.db-journal
+*.pid.lock
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+# PyCharm
+*.iml
+
+# Docker volumes (если есть монтированные пути)
+volumes/
+
+# Python virtualenv
+venv/
+
+# Composer libs
+/vendor/
+
+#phpcs
+phpcs.xml
